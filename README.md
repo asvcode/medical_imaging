@@ -1,5 +1,5 @@
 # Medical Imaging
-Updating fastai medical_imaging [notebook_60](https://github.com/fastai/fastai2/blob/master/nbs/60_medical.imaging.ipynb)
+Taking a look at fastai medical_imaging [notebook_60](https://github.com/fastai/fastai2/blob/master/nbs/60_medical.imaging.ipynb)
 
 Using DICOMs with [fastai](https://github.com/fastai/fastai2)
 
