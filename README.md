@@ -3,7 +3,7 @@ Taking a look at fastai medical_imaging [notebook_60](https://github.com/fastai/
 
 Using DICOMs with [fastai](https://github.com/fastai/fastai2)
 
-## What are DICOMs?
+### What are DICOMs?
 
 **DICOM**(**D**igital **I**maging and **CO**mmunications in **M**edicine) is the de-facto standard that establishes rules that allow medical images(X-Ray, MRI, CT) and associated information to be exchanged between imaging equipment from different vendors, computers, and hospitals. The DICOM format provides a suitable means that meets [health infomation exchange](https://www.himss.org/interoperability-and-health-information-exchange) (HIE) standards for transmision of health related data among facilites and HL7 standards which is the messaging standard that enables clinical applications to exchange data.
 
@@ -25,7 +25,7 @@ DICOM files typically have a .dcm extension and provides a means of storing data
   <img width="208" height="388" src="static/dicom_.PNG">
 </p>
 
-## Requirements
+### Requirements
 
 Requires installing `pycidom`
 
@@ -47,7 +47,7 @@ Fastai provides an easy to access slim dicom dataset (250 DICOM files, ~30MB) fr
 
 ### Images from the notebooks
 
-### >hist_scaled(in Part1)
+#### >hist_scaled(in Part1)
 `hist_scaled` provides a way to scale a tensor of pixels evenly using `freqhist_bins` to values between 0 and 1. This is the histogram of image pixel values scaled from 0 to 255
 <p align="center">
   <img width="436" height="288" src="static/hist1.PNG">
