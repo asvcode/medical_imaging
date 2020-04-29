@@ -48,7 +48,7 @@ Fastai provides an easy to access slim dicom dataset (250 DICOM files, ~30MB) fr
 ### Images from the notebooks
 
 #### >hist_scaled(in Part1)
-`hist_scaled` provides a way to scale a tensor of pixels evenly using `freqhist_bins` to values between 0 and 1. This is the histogram of image pixel values scaled from 0 to 255
+`hist_scaled` provides a way to scale a tensor of pixels evenly using `freqhist_bins` to values between 0 and 1. This is the histogram of image pixel values scaled from 0 to 255.  As explained in this [notebook](https://www.kaggle.com/jhoward/don-t-see-like-a-radiologist-fastai)
 <p align="center">
   <img width="436" height="288" src="static/hist1.PNG">
 </p>
