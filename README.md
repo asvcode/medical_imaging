@@ -44,3 +44,16 @@ Fastai provides an easy to access slim dicom dataset (250 DICOM files, ~30MB) fr
 <p align="center">
   <img width="600" height="284" src="static/dicom.PNG">
 </p>
+
+### Images from the notebooks
+
+### >hist_scaled(in Part1)
+`hist_scaled` provides a way to scale a tensor of pixels evenly using `freqhist_bins` to values between 0 and 1. This is the histogram of image pixel values scaled from 0 to 255
+<p align="center">
+  <img width="436" height="288" src="static/hist1.PNG">
+</p>
+
+Scaled histogram now has pixel values ranging from 0 to 1
+<p align="center">
+  <img width="436" height="288" src="static/hist2.PNG">
+</p>
