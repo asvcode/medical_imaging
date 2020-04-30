@@ -1,7 +1,11 @@
 # Medical Imaging
-Taking a look at fastai medical_imaging [notebook_60](https://github.com/fastai/fastai2/blob/master/nbs/60_medical.imaging.ipynb)
+Taking a look at fastai medical_imaging [notebook_60](https://github.com/fastai/fastai2/blob/master/nbs/60_medical.imaging.ipynb), this is broken up into 2 notebooks Part1 and Part2.
+
+- The SIIM_Starter notebook is a high level starter notebook that looks at what considerations are taken when training models for medical use and how to evalute model performance
 
 Using DICOMs with [fastai](https://github.com/fastai/fastai2)
+
+
 
 ### What are DICOMs?
 
